@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: rgba(240, 168, 62, 1);
+}
+
+nav{
+    margin: 0 5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.alerta{
+    background-color: rgb(89, 88, 88);
+    color: white;
+}
