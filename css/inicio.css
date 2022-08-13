@@ -1,24 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
+    color: #3c2313;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    background: rgba(240, 168, 62, 1);
-}
-
-nav{
-    margin: 0 5rem;
-}
-
-ul{
-    display: flex;
-    justify-content: space-around;
-}
-
-
 .alerta{
-    background-color: rgb(89, 88, 88);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 6rem;
+    background-color: #222222;
+    color: white;
+}
+
+.alerta p{
+    color: white;
+}
+
+
+.selects select{
+    background-color: #222222;
+    color: white;
+    border: none;
+    margin: 0 1rem;
+}
+
+.banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 2rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: #3c2313;
+}
+
+.box-h1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.banner h2{
+    font-weight: 300;
+}
+
+.texto{
+    /* background-color: blue; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.banner-button{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.productos{
+    height: 100vh;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productos .contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productos .contenido img{
+    width: 7vw;
+}
+
+.productos .contenido h1{
+    margin-top: 1rem;
+    color: #3c2313;
+    font-size: 40px;
+}
+
+.productos .contenido p{
+    margin: 2rem 0;
+    color: rgba(102, 102, 102, 1);
+    font-size: 20px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: #fbfaf6;
+    padding: 1rem 0;
+}
+
+.card h3{
+    margin: 5px 0;
+}
+
+.card p{
+    color:#f0a83e;
+}
+
+.contacto{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto form{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto form .inputs{
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 40vw;
+    background-color: #3c2313;
+    
+}
+
+.contacto form .inputs label{
+    font-size: 13px;
+    width: 30vw;
+    color: white;
+}
+
+.contacto form input{
+    background-color: #3c2313;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    width: 50vw;
+    color: white;
+    padding: 10px 1rem;
+}
+
+.contacto h1{
+    margin-bottom: 1rem;
+    font-size: 40px;
+}
+
+.btns{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset{
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #8a8787;
+    color: white;
+}
+
+.send{
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #f0a83e;
+    color: white;
+}
+
+.suscribete{
+    padding: 1rem 1rem;
+    background-color: #f0a83e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-suscribe{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-suscribe h2{
+    font-weight: 500;
+    margin: 0 0.5rem;
+    color: white;
+}
+
+.suscribete form{
+    margin: 0 2rem;
+}
+
+.suscribete form input{
+    border: none;
+    border-radius: 15px;
+    width: 20vw;
+    padding: 1.2rem 1rem;
+    margin: 0 1rem;
+}
+
+.suscribete form button{
+    border-radius: 15px;
+    padding: 1.2rem 1rem;
+    background-color: #3c2313;
+    color: white;
+    border: none;
+}
+
+.derechos{
+    text-align: center;
+    padding: 0.8rem 6rem;
+    background-color: #222222;
+}
+
+.derechos h5{
     color: white;
 }

@@ -1,0 +1,33 @@
+header{
+    background: #f0a83e;
+    padding: 1rem 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    
+}
+
+.logo{
+    width: 15vw;
+}
+
+nav{
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    color: white;
+    list-style: url(../../img/pawprint\ 1\ \(blanco\).png);
+}
