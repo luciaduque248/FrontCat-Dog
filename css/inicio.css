@@ -28,6 +28,8 @@
     margin: 0 1rem;
 }
 
+
+/* :::::::::::::::::::::::: CONTENIDO ::::::::::::::::::::::::*/
 .banner{
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
     background-repeat: no-repeat;
@@ -251,4 +253,71 @@
 
 .derechos h5{
     color: white;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .productos{
+        background-color: white;
+        height: 260vh;
+        text-align: center;
+    }
+
+    .productos .contenido img{
+        width: 18vw;
+    }
+
+    .productos .contenido p{
+        font-size: 15px;
+    }
+
+    .cards-container{
+        flex-direction: column;
+    }
+
+    .card{
+        box-shadow: 2px 2px 10px grey;
+        border-radius: 5px;
+        background-color: #fbfaf6;
+    }
+
+    .contacto{
+        background-color: red;
+        height: 100vh;
+    }
+
+    .contacto form{
+        height: auto;
+    }
+
+    .contacto form .inputs{
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .btns{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .suscribete{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .message-suscribe h2{
+        font-size: medium;
+    }
+
+    .suscribete form{
+        margin: 1rem 2rem;
+    }
+
+    .suscribete form input{
+        width: auto;
+    }
+
+    .suscribete form button{
+        margin-top: 1rem;
+    }
 }
