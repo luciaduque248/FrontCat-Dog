@@ -1,68 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/Dog.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../components/header/header.css">
+    <link rel="stylesheet" href="../components/footer/footer.css">
+    <link rel="shortcut icon" href="../img/Dog.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4bc23db062.js" crossorigin="anonymous"></script>
     <title>FrontCat&Dog</title>
 </head>
+
 <body>
-    <div>
-        <p>Grandes ofertas</p>
 
-        <select name="idioma" id="">
-            <option value="Español">Español</option>
-            <option value="Inglés">Inglés</option>
-            <option value="Francés">Francés</option>
-        </select>
+    <div class="alerta">
+        <p>Grandes ofertas en comederos</p>
 
-        <select name="peso" id="">
-            <option value="">$ARG</option>
-            <option value="">$COP</option>
-            <option value="">$USD</option>
-        </select>
-        
+        <div class="selects">
+            <select name="idioma" id="">
+                <option value="Español">Español</option>
+                <option value="Inglés">Inglés</option>
+                <option value="Francés">Francés</option>
+            </select>
+
+            <select name="peso" id="">
+                <option value="">$ARG</option>
+                <option value="">$COP</option>
+                <option value="">$USD</option>
+            </select>
+        </div>
+
     </div>
 
-    <header>
-        <img src="./img/Logo.png" alt="">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
 
-        <nav>
-            <ul>
-                <li>
-                    <img src="./img/pawprint 1 (blanco).png" alt="">
-                    Categorias
-                </li>
-                <li>
-                    <img src="./img/pawprint 1 (blanco).png" alt="">
-                    Pets
-                </li>
-                <li>
-                    <img src="./img/pawprint 1 (blanco).png" alt="">
-                    Nosotros
-                </li>
-                <li>
-                    <img src="./img/pawprint 1 (blanco).png" alt="">
-                    Contactanos
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <a href="#" class="enlace">
+            <img src="../img/Logo.png" alt="" class="logo">
+        </a>
 
-    <div>
-        <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="" width="100%">
+        <ul>
+            <li>Categorias</li>
+            <li>Pets</li>
+            <li>Nosotros</li>
+            <li>Contactanos</li>
+        </ul>
+    </nav>
 
-        <h1>¡Es un placer tenerte aqui!</h1>
-        <h3>¡Comederos en descuento!</h3>
+    <div class='banner'>
+        <div class="texto">
+            <div class="box-h1">
+                <h1>¡Es un placer tenerte aquí!</h1>
+            </div>
 
-        <button>COMEDEROS</button>
+            <h2>¡Comederos en descuento!</h2>
+
+            <button class="banner-button">COMEDEROS</button>
+        </div>
     </div>
-    
-    <div>
-        <img src="./img/pawprint 1.png" alt="">
-        <h1>Producto</h1>
+
+    <section class="productos">
+        <div class="contenido">
+            <img src="../img/pawprint 1.png" alt="">
+            <h1>Productos Destacados</h1>
+            <p>Comederos - Accesorios - Comida</p>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <img src="../img/churrasquito.png" alt="churrasquito">
+                <h3>Juguete Churrasquito</h3>
+                <p>$150</p>
+            </div>
+            <div class="card">
+                <img src="../img/comedero.png" alt="comedero">
+                <h3>Comedero para perro</h3>
+                <p>$250</p>
+            </div>
+            <div class="card">
+                <img src="../img/Huesito.png" alt="huesito">
+                <h3>Juguete Huesito</h3>
+                <p>$650</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacto">
+        <h1>Contáctanos</h1>
+
+        <form action="">
+            <div class="inputs">
+                <label for="">Nombre y apellido</label>
+                <input type="text">
+            </div>
+
+            <div class="inputs">
+                <label for="">Ingresa tu correo electrónico</label>
+                <input type="text">
+            </div>
+
+            <div class="inputs">
+                <label for="">Teléfono</label>
+                <input type="text">
+            </div>
+
+            <div class="btns">
+                <button class="reset">Resetear</button>
+                <button type="submit" class="send">Enviar</button>
+            </div>
+
+        </form>
+    </section>
+
+    <div class="suscribete">
+        <div class="message-suscribe">
+            <img src="../img/enviar-correo 1.png" alt="">
+            <h2>Suscríbete para más novedades</h2>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="Ingresa tu correo electrónico"></input>
+            <button>Suscribirme</button>
+        </form>
     </div>
-    
+
+    <footer>
+        <div class="atajos">
+            <div class="attach">
+                <div class="circle">
+                    <img src="../img/FONDO-FT(1).png" alt="ubicacion-icon">
+                </div>
+
+
+                <div class="attach-text">
+                    <h1>Localidad</h1>
+                    <h4>Calle - provincia</h4>
+                </div>
+
+            </div>
+
+            <div class="attach">
+
+                <div class="circle">
+                    <img src="../img/FONDO-FT(2).png" alt="call-icon">
+                </div>
+
+
+                <div class="attach-text">
+                    <h1>Teléfono</h1>
+                    <h4>Número de teléfono</h4>
+                </div>
+            </div>
+
+            <div class="attach">
+
+                <div class="circle">
+                    <img src="../img/FONDO-FT(3).png" alt="mail-icon">
+                </div>
+
+
+                <div class="attach-text">
+                    <h1>Correo electrónico</h1>
+                    <h4>Dirección de correo</h4>
+                </div>
+            </div>
+        </div>
+
+        <img src="../img/Logo-(blanco).png" alt="">
+    </footer>
+
+    <div class="derechos">
+        <h5>Todos los derechos reservados Front End</h5>
+    </div>
+
 </body>
+
 </html>
