@@ -21,29 +21,10 @@ footer img{
     height: 50vh;
 }
 
-.circle-gris1{
-    margin: 0 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 5vw;
-    height: 10vh;
-    background-color: #786960;
-    border-radius: 50px;
-}
-
-.circle{
-    padding: 5px 6px;
-    background: #8A8787;
-    border-radius: 50px;
-}
-
 .circle img{
-    width: 3vw;
+    width: 5vw;
+    margin: 0 10px;
 }
-
-
 
 .attach{
     color: white;
@@ -56,4 +37,32 @@ footer img{
 
 .attach h4{
     font-weight: 300;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    footer{
+        flex-direction: column-reverse;
+        padding: 2rem 6rem;
+        height: auto;
+    }
+
+    footer img{
+        width: 65vw;
+    }
+
+    .atajos{
+        height: auto;
+    }
+
+
+    .circle img{
+        width: 20vw;
+        margin: 0 10px;
+    }
+
+    .attach{
+        height: auto;
+    }
+
+    
 }
